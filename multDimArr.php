@@ -21,12 +21,12 @@ function newLine(){
 
     // echo $cars[0][0];
 
-    for ($i = 0 ; $i < count($cars) ; $i++){
+    for ($i = 0 ; $i < ($cars) ; $i++){
 
         // $inner = $cars[$i];
 
         echo "<h1>";
-        for ($j = 0 ; $j< count($cars[$i]); $j ++ ){
+        for ($j = 0 ; $j< ($cars[$i]); $j ++ ){
 
             pp($cars[$i][$j]);
             
